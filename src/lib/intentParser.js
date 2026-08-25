@@ -113,9 +113,9 @@ async function getCallable() {
  * Direct LLM Query Engine via Groq API with Inventory Context
  */
 async function parseWithGroqLLM(transcript, context = {}) {
-  const apiKey = (typeof import.meta !== 'undefined' && import.meta?.env?.VITE_GROQ_API_KEY) ||
-                 (typeof process !== 'undefined' && process?.env?.VITE_GROQ_API_KEY) ||
-                 (typeof window !== 'undefined' && window.GROQ_API_KEY);
+  const apiKey = (typeof import.meta !== 'undefined' && (import.meta?.env?.GROQ_API_KEY || import.meta?.env?.VITE_GROQ_API_KEY)) ||
+                 (typeof process !== 'undefined' && (process?.env?.GROQ_API_KEY || process?.env?.VITE_GROQ_API_KEY)) ||
+                 (typeof window !== 'undefined' && (window.GROQ_API_KEY || window.VITE_GROQ_API_KEY));
   if (!apiKey) return null;
 
   const inventoryList = (context.inventory || []).map((i) => `${i.name}${i.quantity ? ` (${i.quantity}${i.unit || ''})` : ''}`);
@@ -192,9 +192,9 @@ Current User Context:
  * Multi-Turn Conversational Voice Chat Loop — Groq LLM API
  */
 export async function converseWithGroqLLM(userMessage, chatHistory = [], context = {}) {
-  const apiKey = (typeof import.meta !== 'undefined' && import.meta?.env?.VITE_GROQ_API_KEY) ||
-                 (typeof process !== 'undefined' && process?.env?.VITE_GROQ_API_KEY) ||
-                 (typeof window !== 'undefined' && window.GROQ_API_KEY);
+  const apiKey = (typeof import.meta !== 'undefined' && (import.meta?.env?.GROQ_API_KEY || import.meta?.env?.VITE_GROQ_API_KEY)) ||
+                 (typeof process !== 'undefined' && (process?.env?.GROQ_API_KEY || process?.env?.VITE_GROQ_API_KEY)) ||
+                 (typeof window !== 'undefined' && (window.GROQ_API_KEY || window.VITE_GROQ_API_KEY));
   if (!apiKey) return null;
 
   const inventoryList = (context.inventory || []).map((i) => i.name).join(', ');
