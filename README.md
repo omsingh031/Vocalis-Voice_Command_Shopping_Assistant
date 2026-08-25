@@ -11,7 +11,7 @@
 **A smart, voice-first grocery shopping assistant powered by Groq LLM AI.**  
 Say or type a dish name and instantly get all required ingredients added to your shopping list.
 
-[🌐 Live Demo](https://vocalis-voice-command-shopping-assistant.vercel.app) · [📦 GitHub Repo](https://github.com/omsingh031/Vocalis-Voice_Command_Shopping_Assistant)
+[🌐 Live Demo](https://vocalis-voice-command-shopping-assi.vercel.app/) · [📦 GitHub Repo](https://github.com/omsingh031/Vocalis-Voice_Command_Shopping_Assistant)
 
 </div>
 
@@ -208,25 +208,11 @@ Vocalis solves the friction of grocery planning by combining voice-first interac
 
 ---
 
-## 📋 Assignment Submission Checklist
-
-- ✅ App runs without errors on `npm run dev`
-- ✅ Source code properly structured and named
-- ✅ No `node_modules`, `dist/`, or sensitive files committed
-- ✅ Branch is `main`
-- ✅ Repository is public and downloadable
-- ✅ Proper documentation with comments throughout code
-- ✅ All required dependencies are listed in `package.json`
-- ✅ `.env.example` provided (no real keys committed)
-- ✅ Working live demo available
-
----
-
 ## 📬 Deliverables
 
 | Item | Link |
 |---|---|
-| 🌐 **Working Application** | [vocalis-voice-command-shopping-assistant.vercel.app](https://vocalis-voice-command-shopping-assistant.vercel.app) |
+| 🌐 **Working Application** | [vocalis-voice-command-shopping-assi.vercel.app](https://vocalis-voice-command-shopping-assi.vercel.app/) |
 | 📦 **GitHub Repository** | [github.com/omsingh031/Vocalis-Voice_Command_Shopping_Assistant](https://github.com/omsingh031/Vocalis-Voice_Command_Shopping_Assistant) |
 | 🌿 **Branch** | `main` |
 
@@ -237,13 +223,7 @@ Vocalis solves the friction of grocery planning by combining voice-first interac
 | Variable | Required | Description |
 |---|---|---|
 | `GROQ_API_KEY` | ✅ Yes | Groq LLM API key for AI intent parsing |
-| `VITE_GROQ_API_KEY` | ✅ Yes | Same key with Vite prefix (for browser access) |
-| `VITE_FIREBASE_API_KEY` | ❌ Optional | Firebase API key for cloud Firestore sync |
-| `VITE_FIREBASE_AUTH_DOMAIN` | ❌ Optional | Firebase auth domain |
-| `VITE_FIREBASE_PROJECT_ID` | ❌ Optional | Firebase project ID |
-| `VITE_FIREBASE_STORAGE_BUCKET` | ❌ Optional | Firebase storage bucket |
-| `VITE_FIREBASE_SENDER_ID` | ❌ Optional | Firebase messaging sender ID |
-| `VITE_FIREBASE_APP_ID` | ❌ Optional | Firebase app ID |
+
 
 ---
 
