@@ -1,0 +1,11 @@
+{
+  "name": "voice-shopping-functions",
+  "description": "Cloud Functions for Voice Shopping Assistant — Groq/Llama intent parsing",
+  "engines": { "node": "18" },
+  "main": "index.js",
+  "dependencies": {
+    "firebase-admin": "^12.1.0",
+    "firebase-functions": "^5.0.1",
+    "groq-sdk": "^0.7.0"
+  }
+}
