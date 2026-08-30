@@ -22,28 +22,28 @@ Say or type a dish name and instantly get all required ingredients added to your
 ### 🏠 Main Dashboard — Voice & Text Command Interface
 > The home screen with microphone button for hands-free voice control, smart suggestion chips, and a real-time shopping list on the right.
 
-![Main Dashboard](https://raw.githubusercontent.com/omsingh031/Vocalis-Voice_Command_Shopping_Assistant/main/public/screenshots/landing.png)
+![Main Dashboard](https://raw.githubusercontent.com/omsingh031/Vocalis-Voice_Command_Shopping_Assistant/main/public/screenshots/landing.jpeg)
 
 ---
 
 ### 🍗 Recipe Expansion — "I want to cook Butter Chicken"
 > Speaking or typing a dish name automatically resolves and adds all required raw ingredients, categorized into Produce, Dairy, Protein, and Pantry sections.
 
-![Recipe Ingredients Added](https://raw.githubusercontent.com/omsingh031/Vocalis-Voice_Command_Shopping_Assistant/main/public/screenshots/recipe.png)
+![Recipe Ingredients Added](https://raw.githubusercontent.com/omsingh031/Vocalis-Voice_Command_Shopping_Assistant/main/public/screenshots/recipe.jpeg)
 
 ---
 
 ### 🤖 AI Chat Assistant — Conversational Grocery Helper
 > The "Ask AI Helper" drawer opens a live Groq LLM-backed conversational assistant for mood-based dish suggestions, smart recipe queries, and natural language grocery management.
 
-![AI Chat Drawer](https://raw.githubusercontent.com/omsingh031/Vocalis-Voice_Command_Shopping_Assistant/main/public/screenshots/ai_chat.png)
+![AI Chat Drawer](https://raw.githubusercontent.com/omsingh031/Vocalis-Voice_Command_Shopping_Assistant/main/public/screenshots/ai_chat.jpeg)
 
 ---
 
 ### 💬 AI Breakfast Suggestion in Action
 > The AI responds intelligently to mood-based queries like _"suggest me something for breakfast"_ with personalized dish ideas powered by the Groq neural LLM.
 
-![AI Breakfast Suggestion](https://raw.githubusercontent.com/omsingh031/Vocalis-Voice_Command_Shopping_Assistant/main/public/screenshots/ai_breakfast.png)
+![AI Breakfast Suggestion](https://raw.githubusercontent.com/omsingh031/Vocalis-Voice_Command_Shopping_Assistant/main/public/screenshots/ai_breakfast.jpeg)
 
 ---
 
